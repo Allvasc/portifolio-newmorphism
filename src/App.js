@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import Background from './assets/Background.jpg'
+import { useState } from 'react';
 import './App.css';
+import BasePortifolio from './Components/BasePortifolio/BasePortifolio';
 
 function App() {
+
+  const [x, setX] = useState(0)
+  const [y, setY] = useState(0)
+
+  function quandoMover(ev) {
+    setX(ev.pageX * -1 / 15)
+    setY(ev.pageY * -1 / 15)
+  }
+
+  const estilo = {
+    backgroundImage: `url(${Background})`,
+    backgroundPositionX: `${x}px`,
+    backgroundPositionY: `${y}px`,
+    backgroundSize: '110vw',
+    minHeight: '100vh',
+    overFlow: 'hidden',
+    backgroundRepeat: 'no-repeat',
+    width: '100vw',
+    display: 'flex',
+    justifyContent:'center',
+    alignItems: 'center'
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={estilo} className="App" onMouseMove={quandoMover}>
+      <BasePortifolio/>
     </div>
   );
 }

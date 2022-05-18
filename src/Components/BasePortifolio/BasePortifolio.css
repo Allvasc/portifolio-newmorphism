@@ -1,0 +1,9 @@
+.baseContainer{
+    background-color: #fff;
+    height: 90vh;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
