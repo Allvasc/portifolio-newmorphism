@@ -1,9 +1,10 @@
 .baseContainer{
-    background-color: #fff;
+    background-color: #e0e0e0;
     height: 90vh;
     width: 85vw;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border-radius: 20px;
+    flex-direction: row;
 }

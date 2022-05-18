@@ -20,7 +20,7 @@ function App() {
     backgroundSize: '110vw',
     minHeight: '100vh',
     overFlow: 'hidden',
-    backgroundRepeat: 'no-repeat',
+    backgroundRepeat: 'repeat',
     width: '100vw',
     display: 'flex',
     justifyContent:'center',
