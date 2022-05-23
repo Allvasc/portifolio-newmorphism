@@ -3,10 +3,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(120deg, #f0f0f0, #cacaca);
+    background-color: #e0e0e0;
     height: 300px;
     width: 70px;
     margin: 0 auto 0 0;
+    border-radius: 20px;
 }
 
 .buttomMenu {
@@ -29,6 +30,10 @@
     background: #e0e0e0;
     box-shadow: inset 5px 5px 10px #bebebe,
         inset -5px -5px 10px #ffffff;
+}
+
+.buttomMenu:hover {
+    color: #0059fd;
 }
 
 .iconMenu {
