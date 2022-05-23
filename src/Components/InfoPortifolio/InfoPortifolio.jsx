@@ -9,6 +9,8 @@ const InfoComponent = () => {
       <div className='perfilCont'>
         <img className="perfil" src={Perfil} alt="Imagem Allison Vasconcelos" />
       </div>
+      <p className='nome'>Allison Vasconcelos</p>
+      <p className='role'>Desenvolvedor Front-end</p>
         <SocialMenu/>
     </div>
   )

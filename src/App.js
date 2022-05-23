@@ -2,6 +2,7 @@ import Background from './assets/Background.jpg'
 import { useState } from 'react';
 import './App.css';
 import BasePortifolio from './Components/BasePortifolio/BasePortifolio';
+import Menu from './Components/Menu/Menu';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
   return (
     <div style={estilo} className="App" onMouseMove={quandoMover}>
       <BasePortifolio />
+      <Menu />
     </div>
   );
 }

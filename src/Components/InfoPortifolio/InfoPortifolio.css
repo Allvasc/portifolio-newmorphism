@@ -6,7 +6,7 @@
     background-color: #e0e0e0;
     height: 100%;
     max-width: 100%;
-    width: 350px;
+    width: 300px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background: linear-gradient(120deg, #f0f0f0, #cacaca);
@@ -33,4 +33,16 @@
     background: #e0e0e0;
     box-shadow: inset 5px 5px 8px #c7c7c7,
         inset -5px -5px 8px #f9f9f9;
+}
+
+.nome{
+    font-size: 1.8em;
+    margin: 0 auto;
+    color: hsl(0, 1%, 26%);
+}
+
+.role{
+    font-size: 1.2em;
+    margin: 10px auto;
+    color: hsl(0, 1%, 26%);
 }

@@ -1,0 +1,36 @@
+.menuCase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(120deg, #f0f0f0, #cacaca);
+    height: 300px;
+    width: 70px;
+    margin: 0 auto 0 0;
+}
+
+.buttomMenu {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 5px 5px 10px #bebebe,
+        -5px -5px 10px #ffffff;
+    margin: auto;
+    color: hsl(0, 1%, 26%);
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttomMenu:active {
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #bebebe,
+        inset -5px -5px 10px #ffffff;
+}
+
+.iconMenu {
+    line-height: 0;
+}
