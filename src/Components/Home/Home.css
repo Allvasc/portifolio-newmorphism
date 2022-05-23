@@ -1,0 +1,9 @@
+.caseHome{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 80%;
+   height: 100%;
+   box-sizing: border-box;
+}
