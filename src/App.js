@@ -23,13 +23,13 @@ function App() {
     backgroundRepeat: 'repeat',
     width: '100vw',
     display: 'flex',
-    justifyContent:'center',
+    justifyContent: 'center',
     alignItems: 'center'
   }
 
   return (
     <div style={estilo} className="App" onMouseMove={quandoMover}>
-      <BasePortifolio/>
+      <BasePortifolio />
     </div>
   );
 }
