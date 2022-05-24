@@ -1,4 +1,4 @@
-import Background from './assets/Background.jpg'
+import Background from './assets/BG.png'
 import { useState } from 'react';
 import './App.css';
 import BasePortifolio from './Components/BasePortifolio/BasePortifolio';

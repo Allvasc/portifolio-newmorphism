@@ -1,13 +1,13 @@
 import React from 'react'
 import './BasePortifolio.css'
 import InfoComponent from '../InfoPortifolio/InfoPortifolio';
-import Home from '../Home/Home';
+import Content from '../Content/Content';
 
 const BasePortifolio = () => {
   return (
     <div className='baseContainer'>
         <InfoComponent></InfoComponent>
-        <Home></Home>
+        <Content></Content>
     </div>
   )
 }

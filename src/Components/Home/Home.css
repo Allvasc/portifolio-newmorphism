@@ -1,9 +1,38 @@
 .caseHome{
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: flex-start;
    flex-direction: column;
-   width: 80%;
    height: 100%;
    box-sizing: border-box;
+   padding: 20px;
+   margin: auto;
+}
+
+h1{
+   margin: 0;
+   color: #0059fd;
+   font-weight: 500;
+   font-size: 2.8em;
+   margin: 0;
+}
+
+h2{
+   margin: 0;
+   font-weight: 500;
+   font-size: 2.3em;
+   margin: 0;
+}
+
+h3{
+   margin: 0;
+   font-weight: 500;
+   font-size: 1.8em;
+   margin: 0;
+}
+
+p{
+   text-align: left;
+   font-size: 1.3em;
+   margin: 0;
 }
