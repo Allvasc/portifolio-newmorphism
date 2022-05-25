@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: center;
     border: none;
+    cursor: pointer;
 }
 
 .buttomMenu:active {
@@ -32,6 +33,11 @@
     box-shadow: inset 5px 5px 10px #bebebe,
         inset -5px -5px 10px #ffffff;
 }
+
+.buttomMenu:focus-visible {
+    outline: 2px solid #0059fd;
+}
+
 
 .buttomMenu:hover {
     color: #0059fd;

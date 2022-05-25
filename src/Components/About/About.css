@@ -1,3 +1,14 @@
-.About{
+.About {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+    margin: auto;
+}
 
+.paragraph{
+    width: 600px;
+    max-width: 600px;
 }

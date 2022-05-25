@@ -17,6 +17,10 @@
     margin: 100px auto 10px auto;
     border-radius: 10px;
 }
+.socialButton:focus-visible {
+    outline: 2px solid #0059fd;
+}
+
 
 
 .socialButton {
