@@ -4,7 +4,6 @@
    align-items: flex-start;
    flex-direction: column;
    height: 100%;
-   box-sizing: border-box;
    padding: 20px;
    margin: auto;
 }
