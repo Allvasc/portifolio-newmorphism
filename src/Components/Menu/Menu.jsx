@@ -1,14 +1,18 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import './Menu.css'
 import { AiFillHome, AiOutlineUser, AiOutlineAudit, AiOutlineCode } from "react-icons/ai";
+import { Context } from '../../context/contentContext'
 
 const Menu = () => {
+
+  const {showHide1, showHide2, showHide3, showHide4} = useContext(Context)
+
   return (
     <div className='menuCase'>
-        <a className='buttomMenu' href="https://"><AiFillHome className='iconMenu'/></a>
-        <a className='buttomMenu' href="https://"><AiOutlineUser/></a>
-        <a className='buttomMenu' href="https://"><AiOutlineAudit/></a>
-        <a className='buttomMenu' href="https://"><AiOutlineCode/></a>
+        <button className='buttomMenu' onClick={showHide1}><AiFillHome className='iconMenu'/></button>
+        <button className='buttomMenu' onClick={showHide2}><AiOutlineUser/></button>
+        <button className='buttomMenu' onClick={showHide3}><AiOutlineAudit/></button>
+        <button className='buttomMenu' onClick={showHide4}><AiOutlineCode/></button>
     </div>
   )
 }

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './App.css';
 import BasePortifolio from './Components/BasePortifolio/BasePortifolio';
 import Menu from './Components/Menu/Menu';
+import { CtxProvider } from './context/contentContext';
 
 function App() {
 
@@ -29,10 +30,12 @@ function App() {
   }
 
   return (
-    <div style={estilo} className="App" onMouseMove={quandoMover}>
-      <BasePortifolio />
-      <Menu />
-    </div>
+    <CtxProvider>
+      <div style={estilo} className="App" onMouseMove={quandoMover}>
+        <BasePortifolio />
+        <Menu />
+      </div>
+    </CtxProvider>
   );
 }
 
