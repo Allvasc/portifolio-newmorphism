@@ -3,7 +3,14 @@ import './Skills.css'
 
 const Skills = () => {
   return (
-    <div>Skills</div>
+    <div>
+      <h1>Skills</h1>
+      <div>
+        <img src="../../assets/perfil.jpg" alt="logo html" />
+
+      </div>
+
+    </div>
   )
 }
 
