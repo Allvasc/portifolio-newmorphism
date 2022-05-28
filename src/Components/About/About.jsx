@@ -4,7 +4,7 @@ import './About.css'
 const About = () => {
   return (
     <div className='About'>
-      <h1>About</h1>
+      <h1 className='title-about'>About</h1>
       <p className='paragraph'>
         Graduado em Análise e desenvolvimentos de sistemas para internet desde 2021.
         Possuo experiência de +3 anos como Frontend, desenvolvendo sites, peças publicitárias,

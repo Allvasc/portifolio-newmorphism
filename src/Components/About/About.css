@@ -8,6 +8,13 @@
     margin: auto;
 }
 
+.title-about{
+
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
 .paragraph{
     width: 600px;
     max-width: 600px;
